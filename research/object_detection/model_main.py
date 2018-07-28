@@ -20,6 +20,9 @@ from __future__ import print_function
 
 from absl import flags
 
+import matplotlib
+matplotlib.use('Agg')
+
 import tensorflow as tf
 
 from object_detection import model_hparams
